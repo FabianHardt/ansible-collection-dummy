@@ -1,2 +1,3 @@
 ---
 # vars file for testrole
+testrole_test_var: "Value of the test var"

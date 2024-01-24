@@ -2,3 +2,7 @@
 - name: Task is running from within the role
   ansible.builtin.debug:
     msg: "This is a task from my_role."
+
+- name: This is just the develop state
+  ansible.builtin.debug:
+    msg: "Value: {{ testrole_test_var }}"
